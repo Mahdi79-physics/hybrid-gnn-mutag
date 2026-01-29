@@ -6,18 +6,19 @@ The model also computes **subgraph Lovász numbers** for enhanced graph-level re
 
 ---
 
-## 📊 Figures & Results
+### 📊 Training Results
 
-*(Figures will be generated automatically during training and saved in the `figures/` folder.)*
+**10-Fold Cross-Validation**
 
-- Train & validation loss per fold  
-- Train & validation accuracy per fold
-
----
-
+| Metric | Value |
+|--------|-------|
+| Avg Train Accuracy | 0.9019 |
+| Avg Validation Accuracy | 0.8675 |
+| Avg Train Loss | 0.2255 |
+| Avg Validation Loss | 0.3519 |
 ## 🧪 Scripts
 
-- `scripts/train_mutag.py` → Train the hybrid GNN with **10-fold cross-validation** and generate performance figures
+- `scripts/train_mutag.py` → Train the hybrid GNN with **10-fold cross-validation**
 
 ---
 
